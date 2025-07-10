@@ -1,4 +1,4 @@
-# TODO: Update with exact module version
+# General dependencies
 numpy
 torch>=1.7
 opencv_python
@@ -16,7 +16,7 @@ motmetrics
 filterpy
 h5py
 
-# verified versions
-onnx==1.8.1
-onnxruntime==1.8.0
+# ONNX-related (latest working versions in Colab)
+onnx==1.18.0
+onnxruntime==1.22.0
 onnx-simplifier==0.3.5
